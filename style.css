@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+/*CSS Document*/
+*{
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+
+  background-color: #242933;
+  justify-content: center;
+ 
+}
+.container{
+  margin:auto;
+  max-width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.formulario {
+  background-color: #2f3644;
+  border-radius: 5px;
+  border: 2px solid  #9faed81d;
+  height: 750px;
+  padding: 20px;
+  width: 320px;
+  margin: auto;
+}
+
+h1 {
+  color: #a7b5db;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  color: #a7b5dbdd;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom:5px; 
+}
+
+p {
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal; 
+  text-align: center; 
+  margin-top: 30px; 
+}
+
+input {
+  width: 95%;
+  height: 35px;
+  border-radius: 3px;
+  border: none
+}
+
+.input__container {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.input_anotation {
+  font-size: 11px;
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+}
+
+.image {
+  position: absolute;
+  right: 22px;
+  bottom: 9px;
+  z-index: 100;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+}
+
+button {
+  color: #ffffff;
+  background-color: #6c63ff;
+  border-radius: 5px;
+  border-color: solid #00000051;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+.button_enviar{
+  width: 93%;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 7px;
+}
+.button_consulta{
+  width: 10%;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 45%;
+}
+
+.input__container-success input {
+  border: 2px solid #50cc64;
+}
+
+.input__container-success .image {
+ 
+  opacity: 1;
+}
+
+.input__container-error input {
+  border: 2px solid #e05c5c;
+}
+
+.input__container-error .image {
+  opacity: 1;
+}
+
+.input__container-error .input_anotation {
+  display: block;
+  color: #e05c5c;
+  letter-spacing: 0.5px;
+}
+.container_tabla{
+  margin:auto;
+  max-width: 50%;
+  margin-top: 30px;
+  margin-bottom: 100px;  
+  background-color:#a7b5dbdd;
+  border-radius:5px;
+
+}
+
+.custom-alert {
+  display: none;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}

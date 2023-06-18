@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Laboratorio Sonia Garcia de Leon Rodriguez</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/CSS">
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-danger custom-alert" id="alert">
+            <button type="button" class="close" onclick="removeAlert();">&times;</button>
+            <div class="contentAlert">Prueba</div>
+        </div>
+        <form class="formulario" id="formulario">
+            <h1>Crea tu cuenta</h1>
+            <div class="input__container">
+                <h2>Nombre</h2>
+                <input type="text" class="input_text" name="nombre" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container">
+                <h2>Primer apellido</h2>
+                <input type="text" class="input_text" name="primer_apellido" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container">
+                <h2>Segundo apellido</h2>
+                <input type="text" class="input_text" name="segundo_apellido" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container">
+                <h2>Email</h2>
+                <input type="email" class="input_text" id="user-email" name="email" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container">
+                <h2>Login</h2>
+                <input type="text" class="input_text" name="login_usuario" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container">
+                <h2>Clave</h2>
+                <input type="password" class="input_text" name="clave" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <div class="input__container" id="confirmarclave">
+                <h2>Confirme su clave</h2>
+                <input type="password" class="input_text" name="confirmeclave" />
+                <img class="image" SRC="images/error-icon.svg">
+                <p class="input_anotation"></p>
+            </div>
+            <button class="button_enviar" type="submit" id="enviar"> ENVIAR </button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
